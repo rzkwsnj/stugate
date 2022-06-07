@@ -1,0 +1,10 @@
+{
+    "require": {
+        "picqer/php-barcode-generator": "*",
+        "phpmailer/phpmailer": "^6.5",
+        "spipu/html2pdf": "^5.2",
+      "ext-mysqli": "*",
+      "ext-json": "*",
+      "ext-openssl": "*"
+    }
+}

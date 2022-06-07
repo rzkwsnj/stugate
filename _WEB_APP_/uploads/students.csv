@@ -1,0 +1,3 @@
+student_name,student_email,student_phone,student_address,student_department,student_level,student_session_paid,student_transaction_id,student_date_paid,student_passport,student_status,student_payment_bank,school_id,admin_id
+Yokolo,yokolo@gmail.com,9829938992,Nigeria,EEE,100L,2021/2022,,,,UNPAID,,1,1
+Valhala,valhala@gmail.com,893003994,Nigeria,EEE,200L,2021/2023,,,,UNPAID,,1,1

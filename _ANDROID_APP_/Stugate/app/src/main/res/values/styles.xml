@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/textBlack</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.GeneralButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">#14a895</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <style name="AppTheme.DangerButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">#D20C0C</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <style name="AppTheme.WarningButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">#ffd800</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTheme.BlackButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">#222222</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <style name="AppTheme.OrderButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">#14a895</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/textBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.Card.Margins" parent="CardView">
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_normal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_large</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">@dimen/margin_small</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Stugate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_close_activity">Back to All Categories</string>
+    <string name="title_activity_auth">Secure Login</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_data">Stugate Data</string>
+    <string name="title_activity_insert_data">Insert Data</string>
+    <string name="title_activity_detail_data">Detail Data</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="please_wait">Please wait. . .</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_with_google">Sign in with Google</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="term_and_condition">All copyright, trade marks, design rights, patents and other intellectual property rights (registered and unregistered) in and on CBN Online Services and CBN Content belong to the CBN and/or third parties (which may include you or other users.) The CBN reserves all of its rights in CBN Content and CBN Online Services. Nothing in the Terms grants you a right or licence to use any trade mark, design right or copyright owned or controlled by the CBN or any other third party except as expressly provided in the Terms.</string>
+    <string name="about_App">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">I AM READY</string>
+
+    <string name="slide_1_title">Make your life easier</string>
+    <string name="slide_1_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad delectus maxime nemo reiciendis rerum sint! Beatae, illum laudantium nesciunt numquam officiis quis suscipit ullam? Ad harum impedit iste odit ratione!!</string>
+
+    <string name="slide_2_title">Collect data as soon as possible</string>
+    <string name="slide_2_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dicta, ducimus, enim esse et eveniet excepturi expedita iste nemo nostrum nulla obcaecati officia quam sapiente voluptas! Asperiores eveniet saepe sequi!</string>
+
+    <string name="slide_3_title">Sync to cloud whenever you\'re ready</string>
+    <string name="slide_3_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae eaque facere iste labore officia qui quibusdam quod rerum voluptate. Ab aliquam aspernatur eum ex minima perspiciatis quae, quisquam suscipit.</string>
+
+    <string name="slide_4_title">App Tour Heading</string>
+    <string name="slide_4_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis cupiditate doloremque est excepturi illo in iste itaque nemo nesciunt nisi nulla officia, quidem repudiandae sequi soluta sunt tempore veniam!</string>
+
+    <string name="play_again_desc">App</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="backdrop_title">SERVICE CATEGORY</string>
+    <string name="backdrop_subtitle">Lorem ipsum sit dolor amet.</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_close">Close</string>
+    <string name="hint_save">Save</string>
+    <string name="hint_refresh">Refresh</string>
+    <string name="hint_account">Account</string>
+
+    <string name="login_error">Login Required</string>
+    <string name="login_error_review">You need to login before you can post review.</string>
+    <string name="login_error_rating">You need to login before you can give rating.</string>
+    <string name="login_error_order">You need to login before you can order.</string>
+    <string name="login_required">You need to login.</string>
+
+    <string name="average_based_on">average based on</string>
+    <string name="rating">rating</string>
+
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password</string>
+    <string name="auth_error">An error occurred, please try again in couple minutes</string>
+    <string name="auth_ok">Authorized !</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="btn_open_account_pref">Change Authentication Preferences</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">SECURE LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_submit_new_email">Submit New Email</string>
+    <string name="btn_submit_new_pass">Submit New Password</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change_email">Change Email</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_update_auth_pref">Auth Settings</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="network_error">Network Error</string>
+    <string name="no_network_connection">No Network Connection.</string>
+
+    <string name="coming_soon">This feature was under development</string>
+
+    <string name="title_alert_confirm_logout">Logout</string>
+    <string name="msg_alert_confirm_logout">Are you sure want to Logout from application?</string>
+    <string name="msg_alert_confirm_submit">Are you sure want to submit data?</string>
+    <string name="action_yes">YES</string>
+    <string name="title_alert">Alert</string>
+    <string name="action_no">NO</string>
+
+    <string name="alert_close_user_title">Cancel Order ?</string>
+    <string name="alert_close_user_title_details">Are you sure you want cancel this order?</string>
+
+    <string name="alert_close_are_you_sure_confirmation">App Order Confirmation</string>
+    <string name="alert_close_are_you_sure_confirmation_details">Are you sure ? you must click confirmation button to completed this order process !</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="dtext1">Term &amp; Conditions</string>
+    <string name="dtext2">About Us</string>
+
+    <string name="htext">If you have any queries regarding this</string>
+    <string name="htext1">Stugate App please</string>
+    <string name="htext2">contact to admin</string>
+    <string name="htext3">rizkiwisnuaji</string>
+    <string name="htext4">Stugate</string>
+    <string name="htext5">+919999999999</string>
+    <string name="htext6">Call Now</string>
+
+    <string name="atext">If you have any questions about</string>
+    <string name="atext1">Stugate App please feel free</string>
+    <string name="atext2">to contact me through codecanyon</string>
+    <string name="atext3">If you have any queries regarding this</string>
+    <string name="atext4">Stugate App please</string>
+    <string name="atext5">contact to admin</string>
+    <string name="atext6">Close</string>
+
+    <string name="credit">Stugate App</string>
+    <string name="copyright">Copyright © 2022™</string>
+
+</resources>

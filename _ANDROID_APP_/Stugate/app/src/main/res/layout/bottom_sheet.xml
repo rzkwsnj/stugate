@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textline"
+    android:backgroundTint="@color/blue"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:text="↕ DATA FOUND, SWIPE UP FOR DETAILS ↕"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingBottom="@dimen/margin_small"
+        android:text="PAID STATUS"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#fff000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_books"
+        style="@style/AppTheme.Card.Margins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progress_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <ImageView
+                android:id="@+id/imgData"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start" />
+
+            <LinearLayout
+                android:id="@+id/layout_partner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:paddingLeft="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_large"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingBottom="@dimen/margin_small"
+                    android:text="0000000000"
+                    android:textColor="#555555"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/txtCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:paddingLeft="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_large"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:text="0000000000"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/txtContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:maxLines="5"
+                    android:paddingLeft="@dimen/margin_large"
+                    android:paddingTop="@dimen/margin_small"
+                    android:paddingRight="@dimen/margin_large"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:text="CONTENT"
+                    android:textSize="@dimen/text_size_large"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/btnCloseBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ff0000"
+        android:text="DISMISS"
+        android:textColor="#fff"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_books"
+    style="@style/AppTheme.Card.Margins"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progress_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+
+        <ImageView
+            android:id="@+id/imgData"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start" />
+
+        <LinearLayout
+            android:id="@+id/layout_partner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_normal">
+
+            <TextView
+                android:id="@+id/txtCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:text="0000000000"
+                android:textColor="#555555"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:maxLines="5"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_small"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:text="CONTENT"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
